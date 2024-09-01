@@ -16,9 +16,9 @@ const Frontend = ({data}) => {
                 <p className="intro medium-14 grey">{item.description}</p>
             </div>
             <div className="button-info">
-                <button className="button secondary-button pointer view-button medium-14"> <i class="ph-fill display icon-18 vertical-align ph-github-logo" onClick={() => {
+                <button className="button secondary-button pointer view-button medium-14" onClick={() => {
                     window.location.href = item.github
-                }} ></i>Github</button>
+                }} > <i class="ph-fill display icon-18 vertical-align ph-github-logo"  ></i>Github</button>
                 <button className="button general-button pointer view-button medium-14" onClick={() => {
                     window.location.href = item.live
                 }} >Live</button>
