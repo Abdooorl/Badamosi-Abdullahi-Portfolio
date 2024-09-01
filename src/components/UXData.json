@@ -1,0 +1,22 @@
+{
+    "infoData": [
+        {
+            "src": "https://i.ibb.co/xXvY9j5/Law.png",
+            "title": "Law Passport",
+            "description": "Legal access for Family & business - ‘23",
+            "link": "/law-passport"
+        },
+        {
+            "src": "https://i.ibb.co/rmBqs8r/Ryder.png",
+            "title": "Ryder App",
+            "description": "Augmented Reality Car Rental App - ‘24 ",
+            "link": "/ryder"
+        },
+        {
+            "src": "https://i.ibb.co/RBGb3xv/HomeRoom.png",
+            "title": "HomeRoom App",
+            "description": "Reinventing the Real Estate Experience - ‘24",
+            "link": "/homeroom"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "FEData": [
+        {
+            "src": "https://i.postimg.cc/908yQj42/FE-one.png",
+            "title": "Sarta Media",
+            "description": "ReactJs - 2024",
+            "live": "https://sartamediang.vercel.app/",
+            "github": "https://github.com/Abdooorl/sartamediang"
+            
+        },
+        {
+            "src": "https://i.postimg.cc/DyNqVnkd/FE-three.png",
+            "title": "Weanow App",
+            "description": "HTML, CSS & Javascript - 2023",
+            "live": "https://weanow.vercel.app/",
+            "github": "https://github.com/Abdooorl/weanow-app"
+
+            
+        },
+        {
+            "src": "https://i.postimg.cc/m2kQ6hqg/FE-two.png",
+            "title": "Dodger Dashboard",
+            "description": "ReactJs - 2024",
+            "live": "https://dodgersapp.vercel.app/",
+            "github": "https://github.com/Abdooorl/Dodgers"
+            
+        },
+        {
+            "src": "https://i.postimg.cc/hjd3pPcM/FE-four.png",
+            "title": "Badamosi Abdullahi",
+            "description": "Portfolio using ReactJs - 2024",
+            "live": "https://badamosi.vercel.app/",
+            "github": "https://github.com/Abdooorl/abdul"
+            
+        }
+       
+
+
+
+        
+
+
+
+    ]
+}

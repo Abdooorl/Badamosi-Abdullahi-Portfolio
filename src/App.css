@@ -1,38 +1,286 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  
+  @font-face {
+    font-family: 'GeneralSans-Light';
+    src: url('./fonts/GeneralSans-Light.woff2') format('woff2'),
+         url('./fonts/GeneralSans-Light.woff') format('woff'),
+         url('./fonts/GeneralSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @font-face {
+    font-family: 'GeneralSans-Regular';
+    src: url('./fonts/GeneralSans-Regular.woff2') format('woff2'),
+         url('./fonts/GeneralSans-Regular.woff') format('woff'),
+         url('./fonts/GeneralSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
   }
-}
+  
+  @font-face {
+    font-family: 'GeneralSans-Medium';
+    src: url('./fonts/GeneralSans-Medium.woff2') format('woff2'),
+         url('./fonts/GeneralSans-Medium.woff') format('woff'),
+         url('./fonts/GeneralSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('./fonts/GeneralSans-Semibold.woff2') format('woff2'),
+         url('./fonts/GeneralSans-Semibold.woff') format('woff'),
+         url('./fonts/GeneralSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GeneralSans-Bold';
+    src: url('./fonts/GeneralSans-Bold.woff2') format('woff2'),
+         url('./fonts/GeneralSans-Bold.woff') format('woff'),
+         url('./fonts/GeneralSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  } 
+
+  @font-face {
+    font-family: "NeueMontreal-Bold";
+    src: url('./fonts/NeueMontreal-Bold.otf') format('opentype');
+    font-style: normal;
+  }
+
+  .gloock-regular {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+  :root {
+
+  --ff-bold: "GeneralSans-bold", sans-serif;
+  --ff-semibold: "GeneralSans-Semibold", sans-serif;
+  --ff-medium: "GeneralSans-Medium", sans-serif; 
+  --ff-light: "GeneralSans-Light", sans-serif;
+
+  --ff-neue-bold: "NeueMontreal-Bold", sans-serif;
+
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-48: 3rem;
+
+  --black: #222222;
+  --grey-two: #818181;
+  --grey-one: #555555;
+  --grey-three: #B5B5B5;
+
+  --white: #FFFFFF;
+  --white-two: #F2F2F2;
+
+  --green: #00AD5D;
+  --red: #F96634;
+
+  }
+
+  body {
+    font-family: var(--ff-medium);
+    color: var(--black)
+  }
+
+  .h1-bold {
+    font-family: var(--ff-neue-bold);
+    font-size: var(--fs-48);
+    text-wrap: pretty;
+  }
+  
+  .medium-12 {
+    font-family: var(--ff-medium);
+    font-size: var(--fs-12);
+  }
+  
+  .medium-14 {
+    font-family: var(--ff-medium);
+    font-size: var(--fs-14);
+  }
+  
+  .medium-16 {
+    font-family: var(--ff-medium);
+    font-size: var(--fs-16);
+  }
+  
+  .medium-18 {
+    font-family: var(--ff-medium);
+    font-size: var(--fs-18);
+  }
+
+  .semibold-16 {
+    font-family: var(--ff-semibold);
+    font-size: var(--fs-16);
+  }
+
+  .semibold-18 {
+    font-family: var(--ff-semibold);
+    font-size: var(--fs-18);
+  }
+
+  .semibold-20 {
+    font-family: var(--ff-semibold);
+    font-size: var(--fs-20);
+  }
+
+  .semibold-24 {
+    font-family: var(--ff-semibold);
+    font-size: var(--fs-24);
+  }
+
+  .contact-button {
+    padding: 0.45rem 0.875rem; 
+  }
+
+  .grey {
+    color: var(--grey-two);
+  }
+
+  .lighter-grey {
+    color: var(--grey-three);
+  }
+
+  .general-button {
+    color: var(--white);
+    border-radius: 2.3125rem;
+    background: var(--black);
+    gap: 0.8rem;
+    box-shadow: 0px 2px 6.5px 0px rgba(54, 54, 54, 0.25), -27px 43px 14px 0px rgba(255, 255, 255, 0.00) inset, -17px 28px 13px 0px rgba(255, 255, 255, 0.02) inset, -10px 16px 11px 0px rgba(255, 255, 255, 0.06) inset, -4px 7px 8px 0px rgba(255, 255, 255, 0.10) inset, -1px 2px 5px 0px rgba(255, 255, 255, 0.12) inset;
+  }
+
+  .ph-github-logo {
+    margin-right: 4px;
+  }
+
+  .secondary-button {
+    background-color: var(--white);
+    color: var(--black);
+    border: none;
+    border-radius: 2.3125rem;
+    box-shadow: 0px 2px 6.5px 0px rgba(54, 54, 54, 0.158);
+  }
+
+  .talk-button {
+    padding: 0.5rem 1.25rem; 
+  }
+
+  .view-button {
+    padding: 0.5rem 1.15rem; 
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .main {
+    padding: 0 4%;
+    max-width: 840px;
+    margin: auto;
+  }
+  
+  .vertical-align-top {
+    vertical-align: text-top;
+  }
+
+  .icon-14 {
+    font-size: 14px;
+  }
+
+  .icon-16 {
+    font-size: 16px;
+  }
+
+  .icon-18 {
+    font-size: 18px;
+  }
+  
+  .icon-20 {
+    font-size: 20px;
+  }
+
+  .icon-24 {
+    font-size: 24px;
+  }
+
+  .text-wrap {
+    text-wrap: pretty;
+  }
+
+  .vertical-align {
+    vertical-align: middle;
+  }
+
+  .black {
+    color: var(--black);
+  }
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 500px) {
+
+    :root {
+        --fs-12: 0.75rem;
+        --fs-14: 0.75rem;
+        --fs-16: 0.875rem;
+        --fs-18: 1rem;
+        --fs-20: 1.125rem;
+        --fs-24: 1.125rem;
+        --fs-48: 2.25rem;
+    }
+
+    .contact-button, .view-button {
+        padding: 0.35rem 0.75rem;
+    }
+
+    .icon-16 {
+      font-size: 14px;
+    }
+
+    .icon-18 {
+      font-size: 16px;
+    }
+
+    .icon-20 {
+      font-size: 18px;
+    }
+
+    .icon-24 {
+      font-size: 20px;
+    }
+
+    .secondary-button {
+      background-color: none;
+      box-shadow: none;
+    }
+  }

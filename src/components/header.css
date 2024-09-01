@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 840px;
+    margin: 4.5rem  auto 0 auto;
+    gap: 1.875rem;
+}
+
+.header-text {
+    text-wrap: pretty;
+}
+
+.sub-text {
+    text-wrap: pretty;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem
+} 
+
+.vertical-align {
+    vertical-align: text-top;
+}
+
+@media screen and (max-width: 530px) {
+    .header {
+        
+        margin: 2.5rem  auto 0 auto;
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "UiData": [
+        {
+            "src": "https://i.postimg.cc/LX5FM0T9/ui-one.png",
+            "alt": "ui-one",
+            "container": "ui-container",
+            "class": "ui-image"
+        },
+        {
+            "src": "https://i.postimg.cc/y6SYgkmV/ui-phone.png",
+            "alt": "ui-phone",
+            "container":"ui-phone",
+            "class": "phone"
+        },
+        {
+            "src": "https://i.postimg.cc/k4mgBDWN/ui-two.png",
+            "alt": "ui-two",
+            "container": "ui-container",
+            "class": "ui-image"
+        },
+        {
+            "src": "https://i.postimg.cc/NjsVftyy/ui-phone-one.png",
+            "alt": "ui-phone-2",
+            "container":"ui-phone",
+            "class": "phone"
+        }, 
+        {
+            "src": "https://i.postimg.cc/6QRQWC45/ui-three.png",
+            "alt": "ui-three",
+            "container": "ui-container",
+            "class": "ui-image"
+        },
+        {
+            "src": "https://i.postimg.cc/5tjRLmSb/ui-phone-three.png",
+            "alt": "ui-phone-4",
+            "container":"ui-phone",
+            "class": "phone"
+        },
+        {
+            "src": "https://i.postimg.cc/fR1LQ8Lr/ui-four.png",
+            "alt": "ui-three",
+            "container": "ui-container",
+            "class": "ui-image"
+        },
+        {
+            "src": "https://i.postimg.cc/x16ZXZH6/ui-phone-five.png",
+            "alt": "ui-phone-3",
+            "container":"ui-phone",
+            "class": "phone"
+        },
+        {
+            "src": "https://i.postimg.cc/DzRXQQ3s/ui-phone-six.png",
+            "alt": "ui-phone-3",
+            "container":"ui-phone",
+            "class": "phone"
+        },
+        {
+            "src": "https://i.postimg.cc/W1WrzL95/ui-phone-four.png",
+            "alt": "ui-phone-3",
+            "container":"ui-phone",
+            "class": "phone"
+        },
+        {
+            "src": "https://i.postimg.cc/kGvRdk6F/ui-phone-seven.png",
+            "alt": "ui-phone-3",
+            "container":"ui-phone",
+            "class": "phone"
+        }
+        
+       
+
+        
+
+
+
+    ]
+}

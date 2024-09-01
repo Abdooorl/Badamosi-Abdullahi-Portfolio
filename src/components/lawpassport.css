@@ -1,0 +1,192 @@
+.title-year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lawPassport-container {
+    margin: 4rem 0 9rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.back {
+    display: inline-block;
+    transition: background-color 0.3s ease-in .01s;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0.3rem 0.8rem 0.3rem 0.4rem;
+    background-color: none;
+    position: fixed;
+    margin: 2rem 0 0 1rem;
+    background-color: rgba(255, 255, 255, 0.034);
+  }
+
+  .back:hover {
+    background-color: var(--white-two);
+  }
+
+  .content-02 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .Overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.35rem;
+    align-items: center;
+    justify-content: flex-start;
+    width: max-content;
+  }
+
+  .weeks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .green {
+    color: var(--green)
+  }
+
+  .red {
+    color: var(--red)
+  }
+
+  .keys-shorts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .keys {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .keys-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .three-keys {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .content-03 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .content-04 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .two-images {
+    display: flex;
+    flex-direction: row;
+    gap: 2.25rem;
+  }
+
+  .content-05 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  .role-team {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem
+  }
+  
+
+  .sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+ 
+  .video {
+    width: 100%;
+    height: calc(100vh * 0.7);
+  }
+
+  .next-project {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .next-container {
+    display: flex;
+    flex-direction: COLUMN;
+    gap: 0.25rem;
+  }
+ 
+
+
+
+
+  @media screen and (max-width: 530px) {
+    .back {
+        padding-left: 0.3rem;
+        padding-right: 0.6rem;
+        margin-top: 0.875rem;
+        -webkit-backdrop-filter: blur(1.5rem);
+        backdrop-filter: blur(1.5rem);
+        background-color: rgba(255, 255, 255, 0.034);
+    }
+
+    .keys-shorts {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+    
+      .title-container{
+        gap: 0.275rem;
+      }
+
+      .lawPassport-container {
+        margin: 4rem 0 5rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .Overview {
+        gap: 0.825rem;
+      }
+  }

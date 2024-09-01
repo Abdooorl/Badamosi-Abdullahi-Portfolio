@@ -1,0 +1,37 @@
+.projects {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.works {
+    display: flex;
+    flex-direction: row;
+    gap: 0.35rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.active-state {
+    background-color: var(--white-two);
+    
+    border-radius: 6px;
+    color: var(--black) !important
+    
+}
+
+.state {
+    color: var(--grey-two);
+    padding: 0.35rem 0.65rem;
+    
+}
+
+@media screen and (max-width: 530px) {
+    .projects {
+        margin-top: 4rem;
+        gap: 1.5rem;
+    }
+}
+
