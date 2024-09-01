@@ -15,7 +15,7 @@ const UX = ({data}) => {
         <div className="project-info">
             <div className="title-info">
                 <h2 className="title semibold-18">{item.title}</h2>
-                <p className="intro medium-14 grey">{item.description}</p>
+                <p className="intro medium-16 grey">{item.description}</p>
             </div>
             <div className="button-info">
                 <button className="button general-button pointer view-button medium-14">View</button>

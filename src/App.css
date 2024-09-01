@@ -89,7 +89,7 @@
   --fs-48: 3rem;
 
   --black: #222222;
-  --grey-two: #818181;
+  --grey-two: #5c5c5c;
   --grey-one: #555555;
   --grey-three: #B5B5B5;
 
@@ -168,6 +168,9 @@
     color: var(--white);
     border-radius: 2.3125rem;
     background: var(--black);
+    border: none;
+    outline: none;
+    border: none;
     gap: 0.8rem;
     box-shadow: 0px 2px 6.5px 0px rgba(54, 54, 54, 0.25), -27px 43px 14px 0px rgba(255, 255, 255, 0.00) inset, -17px 28px 13px 0px rgba(255, 255, 255, 0.02) inset, -10px 16px 11px 0px rgba(255, 255, 255, 0.06) inset, -4px 7px 8px 0px rgba(255, 255, 255, 0.10) inset, -1px 2px 5px 0px rgba(255, 255, 255, 0.12) inset;
   }
@@ -180,6 +183,7 @@
     background-color: var(--white);
     color: var(--black);
     border: none;
+    outline: none;
     border-radius: 2.3125rem;
     box-shadow: 0px 2px 6.5px 0px rgba(54, 54, 54, 0.158);
   }
