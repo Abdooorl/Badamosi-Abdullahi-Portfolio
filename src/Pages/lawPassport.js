@@ -6,11 +6,11 @@ const LawPassport = () => {
     return (
         <div className="lawPassport">
             <Navigations />
-            <button className="button pointer back  medium-16" onClick={
+            <button className="button pointer back black medium-16" onClick={
                     () => {
                         window.location.href = '/home'
                     }
-                }> <i class="ph ph-caret-left icon-20 vertical-align-top"></i> Back</button>
+                }> <i class="ph ph-caret-left icon-20 black vertical-align-top"></i> Back</button>
             <div className='main'>
                 
 

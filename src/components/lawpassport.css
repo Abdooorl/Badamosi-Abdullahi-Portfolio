@@ -29,6 +29,7 @@
     transition: background-color 0.3s ease-in .01s;
     border: none;
     border-radius: 30px;
+    color: var(--black);
     text-align: center;
     padding: 0.3rem 0.8rem 0.3rem 0.4rem;
     background-color: none;

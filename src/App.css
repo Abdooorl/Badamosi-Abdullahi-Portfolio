@@ -263,7 +263,11 @@
         --fs-48: 2.25rem;
     }
 
-    .contact-button, .view-button {
+    .contact-button {
+      padding: 0.5rem 0.75rem;
+    }
+
+     .view-button {
         padding: 0.35rem 0.75rem;
     }
 
